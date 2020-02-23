@@ -3,50 +3,215 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>ADJ Driver Improvement Center</title>
-	<link rel="stylesheet" type="text/css" href="stylesheets/flexbox.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/master.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
- 
- <div class="section">
-  <div class="container">
-    <h1 class="display-4">Collections</h1>
-    <div class="grid">
+    <div class="container" id="header">
+      <div class="row">
+
+        <div class="col-3 header-item">
+          <a href="tel:+17038796500">
+            <label>703 730-8525</label>
+          </a>
+        </div>
+
+        <div class="col-6 header-item">
+          <a href="tel:+17038796500">
+            <label>4326 Dale Boulevard, Suite 8, Woodbridge, VA</label>
+          </a>
+        </div>
+
+        <div class="col-3 header-item">
+          <a href="tel:+17038796500">
+            <label>adj23@comcast.net</label>
+          </a>
+        </div>
+
+      <div>
+    </div>
       
-      <div class="card">
-        <img class="card-img-top" src="#" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Paintings</h5>
-          <a href="#">KSW series</a>
-          <a href="#">GreatLakes series</a>
-          <a href="#">Landcape series</a>
+
+ 
+    <div class="container" >
+      <div class="row">
+
+        <div class="col-12" id="logo">
+          <img src="images/logo-web-transparent.png" alt="logo"/>
+        </div>
+
+      </div>
+    </div>
+  
+
+    <div class="container" id="adj">
+      <div class="row">
+        <div class="col-12">
+          <h1>ADJ</h1>
+          <br>
+          <h2>Driver Improvement Center</h2>
+          <br>
+          <h4 class="description">Serving Northern Virginia since 1999</h4>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h3 id="choose_class">
+              Choose a class below to learn more
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">      
+    <div class="row" id="first_row">
+
+      <div class="col-4 class_cards">
+        <a href="/classes" class="card index_page_card">
+          <img
+            src="/images/driver-Improvement.png"
+            class="icons"
+            alt="logo"
+          />
+          <h3>Driver Improvement</h3>
+          <h3>In-Person</h3>
+          <p>Learn more about this class</p>
+        </a>
+      </div>
+
+      <div class="col-4 class_cards">
+        <a href="/classes/#online" class="card index_page_card">
+          <img
+            src="/images/online-class-image.png"
+            class="icons"
+            alt="logo"
+          />
+          <h3>Driver Improvement</h3>
+          <h3>Online</h3>
+          <p>Learn more about this class</p>
+        </a>
+      </div>
+
+      <div class="col-4 class_cards">
+        <a href="/classes/#3-times" class="card index_page_card">
+          <img
+            src="/images/driver-manual-icon.png"
+            class ="icons"
+            alt="logo"
+          />
+          <h3>DMV 3 Times Failed</h3>
+          <p>Learn more about this class</p>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+      
+  <div class="container">
+      <div class="row" id="second_row">
+
+        <div class="col-4 class_cards">
+        <a href="/classes/#reckless" class="card index_page_card">
+          <img
+            src="/images/Reckless-Aggressive-class.png"
+            class="icons"
+            alt="logo"
+          />
+          <h3> Reckless/Aggressive</h3>
+          <p>Learn more about this class</p>
+        </a>
+      </div>
+
+      <div class="col-4 class_cards">
+        <a href="/classes/#in-car" class="card index_page_card">
+          <img
+            src="/images/license-icon.png"
+            class="icons"
+            alt="logo"
+          />
+          <h3>In-Car/On-Road Driver Training</h3>
+          <p>Learn more about this class</p>
+        </a>
+      </div>
+
+      <div class="col-4 class_cards">
+        <a href="/classes/#espanol" class="card index_page_card">
+          <img
+            src="/images/Clases-en-Espanol.png"
+            class="icons"
+            alt="logo"
+          />
+          <h3>Clases en Español</h3>
+          <p>Aprende más sobre estas clases</p>
+        </a>
+      </div>
+
+    </div>
+    </div>
+
+
+      <div class="container footer">
+        <div class="row">
+
+          <div class="col">
+            <img src="/images/nvc.png" alt="nsc" />
+          </div>
+          <div class="col">
+            <img src="/images/DMV.png" alt="dmv" />
+          </div>
+          <div class="col" id="last_nsc">
+            <img src="/images/nvc.png" alt="nsc" />
+          </div>
+
+        </div>
+      </div>
+         
+
+      <div class="container" id="copyright_cpg">
+        <div class="row">
+
+          <div class="col-6">
+            <a href="/">© 2020 ADJ Driver Improvement Center</a>
+            <br>
+            <a href="http://www.cpgdev.net">cpg development</a>
+          </div>
+          <div class="col-2"> 
+              <a href="https://www.twitter.com/ADJ_Woodbridge">
+                <i class="fa fa-twitter fa-3x"></i>
+              </a>
+          </div>
+          <div class="col-2"> 
+              <a href="/">
+                  <i class="fa fa-linkedin fa-3x"></i>
+                </a>
+          </div>
+          <div class="col-2"> 
+              <a href="https://www.facebook.com/ADJ-Driver-Improvement-Center-181645525214421/">
+              <i class="fa fa-facebook fa-3x"></i>
+              </a>
+          </div>
+
         </div>
       </div>
 
-  <div class="card">
-      <img class="card-img-top responsive-image" src="#" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Photographs</h5>
-    <a href="#">Automotive prints</a>
-    <a href="#">Organic prints</a>
-    <a href="#">Railway prints</a>
-  </div>
-</div>
-
-<div class="card">
-  <img class="card-img-top" src="#" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Digital Prints</h5>
-    <a href="#">Baghdad series</a>
-    <a href="#">Collage series</a>
-    <a href="#">Pop Art series</a>
-  </div>
-</div>
       
-</div>
+        
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
 </html>

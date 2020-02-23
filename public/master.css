@@ -1,0 +1,215 @@
+body {
+  background-image: url("/images/main-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Patua One", cursive;
+}
+
+.header-item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 50px;
+}
+
+a {
+  color: #66fcf1;
+}
+
+a :hover {
+  color: yellow;
+}
+
+.logo {
+  text-align: center;
+  padding-left: 30px;
+  margin-bottom: -20px;
+}
+
+.card img {
+  justify-content: center;
+  max-width: 80%;
+  padding: 20px;
+}
+
+#adj {
+  padding-top: 0px;
+  padding-bottom: 50px;
+  box-shadow: 5px 5px 5px #000000;
+}
+
+.title {
+  margin: 0;
+  width: 100%;
+  padding-top: 80px;
+  line-height: 1.15;
+  font-size: 48px;
+}
+
+.description {
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+#choose_class {
+  color: #66fcf1;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#first_row {
+  padding: 20px;
+}
+
+#second_row {
+  padding: 20px;
+}
+
+.row a h3 {
+  color: white;
+}
+
+.row a p {
+  color: #66fcf1;
+}
+
+.class_cards {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.classes_images {
+  height: 160px;
+  width: 160px;
+}
+
+.classes_icon {
+  padding: 18px 18px 24px;
+  width: auto;
+  /* display: inline-flex; */
+  text-decoration: none;
+  color: #434343;
+  border: 1px solid #9b9b9b;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card {
+  padding: 18px 18px 24px;
+  width: auto;
+  /* display: inline-flex; */
+  text-decoration: none;
+  color: #434343;
+  border: 1px solid #9b9b9b;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.index_page_card:hover {
+  border-color: yellow;
+  -ms-transform: rotate(-20deg); /* IE 9 */
+  -webkit-transform: rotate(-20deg); /* Safari prior 9.0 */
+  transform: rotate(-20deg); /* Standard syntax */
+}
+
+.class_card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  margin: 0;
+  color: #66fcf1;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 0;
+  padding: 12px 0 0;
+  font-size: 13px;
+  color: #333;
+}
+
+.card-body p {
+  color: white;
+}
+
+#class-page-header {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+h2 {
+  color: #66fcf1;
+  // background-image: url("https://images.cdn.circlesix.co/image/1/640/0/uploads/posts/2018/11/7ab478f5a83ed1ceb10650b2169826e6.jpg");
+  // background-position: center; /* Center the image */
+  // background-repeat: no-repeat; /* Do not repeat the image */
+  // height: 400px;
+  text-align: center;
+  // box-shadow: 5px 5px 5px #000000;
+  padding-bottom: 60px;
+}
+
+h1 {
+  color: #66fcf1;
+  text-align: center;
+}
+
+p {
+  color: black;
+}
+
+@media (max-width: 767px) {
+  #last_nsc {
+    display: none;
+  }
+}
+
+#copyright_cpg {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+#copyright_cpg :hover{
+  color: yellow;
+}
+
+.footer img {
+  height: auto;
+  margin: auto;
+  padding: 2em;
+  justify-content: center;
+  max-width: 200px;
+}
+
+.fa {
+  color: #66fcf1;
+}

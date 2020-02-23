@@ -15,14 +15,6 @@ if (process.env.ENVIRONMENT === "prod") {
   });
 }
 
-if (process.env.ENVIRONMENT === "prod") {
-  // sets port 8080 to default or unless otherwise specified in the environment
-  app.set("port", process.env.PORT || 80);
-  app.listen(app.get("port"));
-} else {
-  app.listen(8080, "127.0.0.1");
-}
-
 app.set("view engine", "ejs");
 
 app.use(express.static("public/"));
@@ -36,3 +28,11 @@ app.get("/", function(req, res) {
 app.get("/classes", function(req, res) {
   res.render("classes");
 });
+
+if (process.env.ENVIRONMENT === "prod") {
+  // sets port 8080 to default or unless otherwise specified in the environment
+  app.set("port", process.env.PORT || 80);
+  app.listen(app.get("port"));
+} else {
+  app.listen(8080, "127.0.0.1");
+}

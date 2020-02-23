@@ -1,9 +1,6 @@
 {
   "name": "adj_node1",
   "version": "1.0.0",
-  "engines": {
-    "node": "10.16.3"
-  },
   "description": "ADJ Driver inmprovement node app",
   "main": "app.js",
   "scripts": {

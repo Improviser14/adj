@@ -5,9 +5,10 @@ body {
   font-family: "Patua One", cursive;
 }
 
-.header-item {
-  margin-left: auto;
-  margin-right: auto;
+.icons {
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 #logo {
@@ -198,7 +199,7 @@ p {
   padding-top: 30px;
 }
 
-#copyright_cpg :hover{
+#copyright_cpg :hover {
   color: yellow;
 }
 

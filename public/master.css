@@ -188,6 +188,14 @@ h1 {
   text-align: center;
 }
 
+.calendar {
+  padding: 20px;
+}
+
+.calendar :hover {
+  color: yellow;
+}
+
 p {
   color: black;
 }

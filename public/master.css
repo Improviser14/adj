@@ -64,7 +64,7 @@ label {
 
 .card img {
   justify-content: center;
-  max-width: 80%;
+  max-width: 100%;
   padding: 20px;
 }
 

@@ -7,13 +7,13 @@ const dotenv = require("dotenv").config(),
 
 //ssl must be configured on the application level --here
 //uncomment this block when deploying see code at the bottom of this file
-if (process.env.ENVIRONMENT === "prod") {
-  app.use(function(req, res, next) {
-    if (req.get("X-Forwarded-Proto") !== "https") {
-      res.redirect("https://" + req.get("Host") + req.url);
-    } else next();
-  });
-}
+// if (process.env.ENVIRONMENT === "prod") {
+//   app.use(function(req, res, next) {
+//     if (req.get("X-Forwarded-Proto") !== "https") {
+//       res.redirect("https://" + req.get("Host") + req.url);
+//     } else next();
+//   });
+// }
 
 app.set("view engine", "ejs");
 

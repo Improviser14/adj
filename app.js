@@ -29,6 +29,30 @@ app.get("/classes", function(req, res) {
   res.render("classes");
 });
 
+app.get("/in-person", function(req, res) {
+  res.render("classes");
+});
+
+app.get("/online-driver", function(req, res) {
+  res.render("classes");
+});
+
+app.get("/4hr-reckless", function(req, res) {
+  res.render("classes");
+});
+
+app.get("/failed-test-3x", function(req, res) {
+  res.render("classes");
+});
+
+app.get("/en-espanol", function(req, res) {
+  res.render("classes");
+});
+
+app.get("/in-car", function(req, res) {
+  res.render("classes");
+});
+
 if (process.env.ENVIRONMENT === "prod") {
   // sets port 8080 to default or unless otherwise specified in the environment
   app.set("port", process.env.PORT || 80);

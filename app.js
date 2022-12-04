@@ -37,10 +37,6 @@ app.get("/online-driver", function(req, res) {
   res.render("classes");
 });
 
-app.get("/4hr-reckless", function(req, res) {
-  res.render("classes");
-});
-
 app.get("/failed-test-3x", function(req, res) {
   res.render("classes");
 });

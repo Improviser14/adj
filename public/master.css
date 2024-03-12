@@ -38,8 +38,13 @@ label {
 }
 
 .class_header {
-  padding-left: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 40px;
+}
+
+#header{
+  text-align: center;
 }
 
 /* #col_1 {
@@ -143,19 +148,18 @@ label {
   text-decoration: none;
   color: #434343;
   border: 1px solid #9b9b9b;
-  background: #0f2027; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0f2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #2c5364,
+      #203a43,
+      #0f2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,
+      #2c5364,
+      #203a43,
+      #0f2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .card {
@@ -165,26 +169,24 @@ label {
   text-decoration: none;
   color: #434343;
   border: 1px solid #9b9b9b;
-  background: #0f2027; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0f2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #2c5364,
+      #203a43,
+      #0f2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,
+      #2c5364,
+      #203a43,
+      #0f2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .index_page_card:hover {
   border-color: yellow;
-  transform: scale(
-    1.1
-  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.1);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .class_card {
@@ -216,23 +218,17 @@ label {
   padding-top: 40px;
 }
 
-h2 {
-  color: white;
-  // background-image: url("https://images.cdn.circlesix.co/image/1/640/0/uploads/posts/2018/11/7ab478f5a83ed1ceb10650b2169826e6.jpg");
-  // background-position: center; /* Center the image */
-  // background-repeat: no-repeat; /* Do not repeat the image */
-  // height: 400px;
-  text-align: center;
-  // box-shadow: 5px 5px 5px #000000;
-  padding-bottom: 60px;
-  /* font-family: "Patua One", cursive; */
-}
-
 h1 {
   color: white;
   text-align: center;
   /* font-family: "Patua One", cursive; */
 }
+
+h2 {
+color: white;
+text-align: center;
+}
+
 
 .calendar {
   padding: 20px;
@@ -275,4 +271,8 @@ p {
 
 .label_no_padding {
   padding: 0px;
+}
+
+#servingNOVA{
+  padding-top:40px;
 }

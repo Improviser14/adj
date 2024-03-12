@@ -30,23 +30,23 @@ app.get("/classes", function(req, res) {
 });
 
 app.get("/in-person", function(req, res) {
-  res.render("classes");
+  res.render("in-person");
 });
 
 app.get("/online-driver", function(req, res) {
-  res.render("classes");
+  res.render("online-driver");
 });
 
 app.get("/failed-test-3x", function(req, res) {
-  res.render("classes");
+  res.render("failed-test-3x");
 });
 
 app.get("/en-espanol", function(req, res) {
-  res.render("classes");
+  res.render("en-espanol");
 });
 
 app.get("/in-car", function(req, res) {
-  res.render("classes");
+  res.render("in-car");
 });
 
 if (process.env.ENVIRONMENT === "prod") {
